@@ -1,3 +1,60 @@
-# created by virtualenv automatically
+# Virtual environment
 .venv
+env/
+venv/
+
+# Environment variables
 .env
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.swp
+*.swo
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+*.spec
+
+# mypy
+.mypy_cache/
+
+# Black
+.black/
+
+# TypeScript
+*.tsbuildinfo
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
